@@ -31,18 +31,18 @@ html {
 .hand {
   width: 14px;
   position: absolute;
-  animation: orbit 500ms linear infinite;
   transform-origin: top;
 }
 
 .hand-hour {
   left: calc(50% - 3px);
   top: 150px;
-  animation: ;
+  animation: orbit 10s linear infinite;
 }
 
 .hand-minute {
   left: calc(50% - 10px);
+  animation: orbit 500ms linear infinite;
   top: 150px;
 }
 
